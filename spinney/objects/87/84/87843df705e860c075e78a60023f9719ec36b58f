@@ -1,0 +1,40 @@
+{
+  "Show My Coordinates Config": {
+    "UI": {
+      "UI Text": {
+        "Text": {
+          "Description": "You can customize the ui text. The $x$, $y$, $z$ you need to keep that. You can use minecraft text formatting.",
+          "Text": "§f$x$ §7§l| §f$y$ §7§l| §f$z$"
+        },
+        "Text Position": {
+          "Description": "You can choose where to display the ui text. You can choose between: top_left, top_center, top_right, bottom_left, bottom_center, bottom_right",
+          "Position": "top_center"
+        },
+        "Text Plus X": {
+          "Description": "You can move the ui text in X position. If on the right you need to use - to move in and on the left you need to use + to move in. For example +5",
+          "Plus X": 0
+        },
+        "Text Plus Y": {
+          "Description": "You can move the ui text in Y position. If on the bottom you need to use - to move up and on the top you need to use + to move down. For example +5",
+          "Plus Y": 0
+        },
+        "Text Display": {
+          "Description": "You can choose which way to display the ui text. You can choose between: overlay, actionbar",
+          "Display": "overlay"
+        },
+        "Item": {
+          "Description": "You can choose if you want to show the ui only if there is an item in the inventory of the player. You can choose between: none, compass, map",
+          "Item": "none"
+        },
+        "Enabled": {
+          "Description": "You can disable or enable the mod here.",
+          "Enabled": true
+        }
+      }
+    },
+    "Config Version": {
+      "Description": "Do not touch this!",
+      "Config Version": "1.0"
+    }
+  }
+}
